@@ -26,18 +26,16 @@ const Header = () => {
     <Navbar expand="lg" className={navbar ? 'navbar active' : 'navbar'}>
       <Container>
         <Navbar.Brand as={Link} to="#home">
-          <img src={logo} alt="Dental Clinic Logo" className="logo" />
+          <img src={logo} alt="HealthNook Logo" className="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#services">Our Services</Nav.Link>
             <Nav.Link href="#product">Product</Nav.Link>
             <Nav.Link href="#blog">Blog</Nav.Link>
             <Nav.Link href="#contact">Contact Us</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
-            <Nav.Link href="/schedule">Schedule</Nav.Link> {/* New Link */}
           </Nav>
         </Navbar.Collapse>
       </Container>

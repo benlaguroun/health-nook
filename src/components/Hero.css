@@ -10,6 +10,11 @@
   text-align: center;
 }
 
+.hero-image {
+  object-fit: cover;
+  height: 100vh;
+}
+
 .hero-title {
   font-family: 'Poppins', sans-serif; /* Example font family, adjust as needed */
   font-size: 3rem; /* Large screen size */
@@ -17,7 +22,6 @@
   text-transform: uppercase;
   margin-bottom: 1rem;
   animation: fadeIn 2s ease-in-out;
-  color: aliceblue;
 }
 
 @media (max-width: 768px) {
