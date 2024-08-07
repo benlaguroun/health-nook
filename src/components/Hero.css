@@ -1,0 +1,50 @@
+.hero .carousel-caption {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-title {
+  font-family: 'Poppins', sans-serif; /* Example font family, adjust as needed */
+  font-size: 3rem; /* Large screen size */
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  animation: fadeIn 2s ease-in-out;
+  color: aliceblue;
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem; /* Mobile screen size */
+  }
+}
+
+.hero-button {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.hero-button:hover {
+  transform: scale(1.1);
+  background-color: #007bff; /* Example color, adjust as needed */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

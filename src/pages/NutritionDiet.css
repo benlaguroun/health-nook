@@ -1,0 +1,109 @@
+/* NutritionDiet.css */
+
+/* General Styles */
+.nutrition-diet-container {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+h1, .card-title {
+  font-weight: bold;
+}
+
+.lead {
+  font-size: 1.2rem;
+}
+
+/* Header and Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4CAF50; /* Custom green color */
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #45A049;
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background-color: #008CBA;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #007BB5;
+  transform: translateY(-2px);
+}
+
+/* Section Spacing */
+.my-5 {
+  margin-top: 3rem !important;
+  margin-bottom: 3rem !important;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.2rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
