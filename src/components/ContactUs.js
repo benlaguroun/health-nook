@@ -27,15 +27,7 @@ const ContactUs = () => {
               </Button>
             </Form>
           </Col>
-          <Col md={6} className="contact-info">
-            <h4>Address</h4>
-            <p>123 Dental Street, City, Country</p>
-            <h4>Phone</h4>
-            <p>+123 456 7890</p>
-            <h4>Email</h4>
-            <p>info@dentalclinic.com</p>
-           
-          </Col>
+         
         </Row>
       </Container>
     </div>

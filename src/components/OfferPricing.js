@@ -6,21 +6,21 @@ import './OfferPricing.css';
 const offers = [
   {
     id: 1,
-    title: 'Basic Dental Checkup',
-    price: '$50',
-    summary: 'A comprehensive dental checkup including cleaning.',
+    title: 'Personalized Nutrition Plans',
+    price: 'Free',
+    summary: 'Get a tailored nutrition plan based on your lifestyle and health goals.',
   },
   {
     id: 2,
-    title: 'Teeth Whitening',
-    price: '$120',
-    summary: 'Professional teeth whitening service to brighten your smile.',
+    title: 'Exclusive Workout Guides',
+    price: '$29.99',
+    summary: 'Access our top-rated workout plans to build strength and endurance.',
   },
   {
     id: 3,
-    title: 'Orthodontic Braces',
-    price: '$500',
-    summary: 'Full orthodontic treatment with braces for all ages.',
+    title: 'Wellness Coaching Session',
+    price: '$99',
+    summary: 'One-on-one virtual coaching to help you achieve optimal wellness.',
   },
 ];
 
@@ -28,7 +28,7 @@ const OfferPricing = () => {
   return (
     <div className="offer-section">
       <Container className="py-5" id="offers">
-        <h2 className="section-heading">Our Offers and Pricing</h2>
+        <h2 className="section-heading">Our Health & Wellness Offers</h2>
         <Row>
           {offers.map((offer) => (
             <Col md={4} key={offer.id}>

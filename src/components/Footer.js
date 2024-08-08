@@ -9,7 +9,7 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} className="text-md-left text-center mb-2 mb-md-0">
-            <p>&copy; {new Date().getFullYear()} Dental Clinic. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} HelthNook. All rights reserved.</p>
           </Col>
           <Col xs={12} md={6} className="text-md-right text-center">
             <div className="social-icons">
