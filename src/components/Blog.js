@@ -29,7 +29,7 @@ const Blog = () => {
     <section id="blog" className="py-5">
       <Container>
         <div className="text-center mb-5">
-          <h2>HealthNook Blog</h2>
+          <h2>Peaks-Picks Blog</h2>
           <p className="text-muted">Stay informed with our latest articles on health and wellness.</p>
         </div>
         <Row>

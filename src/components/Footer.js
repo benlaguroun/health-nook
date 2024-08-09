@@ -9,13 +9,13 @@ const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col xs={12} md={6} className="text-md-left text-center mb-2 mb-md-0">
-            <p>&copy; {new Date().getFullYear()} HelthNook. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Peaks-Picks. All rights reserved.</p>
           </Col>
           <Col xs={12} md={6} className="text-md-right text-center">
             <div className="social-icons">
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+              <a href="https://www.facebook.com/peakspicks" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
               <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+              <a href="https://www.instagram.com/peaks.picks/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
             </div>
           </Col>
         </Row>

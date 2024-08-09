@@ -30,7 +30,7 @@ const products = [
     image: require('../images/product4.jpg'),
     title: 'BPA-Free Water Bottle',
     description: 'Eco-friendly and BPA-free water bottle with a convenient carrying handle.',
-    link: 'https://www.amazon.com/dp/B078N2PZSJ',
+    link: 'https://amzn.to/3AfL0ZH',
   },
 ];
 

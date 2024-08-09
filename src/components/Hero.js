@@ -19,7 +19,7 @@ const Hero = () => {
           <Container>
             <Row className="justify-content-center">
               <Col className="text-center text-white" md={8}>
-                <h1 className="hero-title">Welcome to HealthNook</h1>
+                <h1 className="hero-title">Welcome to Peaks-Picks</h1>
                 <p>Your ultimate destination for health and wellness tips and offers.</p>
                 <Button className="btn btn-primary hero-button">Explore Offers</Button>
               </Col>

@@ -11,7 +11,6 @@ import HomeExercise from './pages/HomeExercise';
 import MentalWellness from './pages/MentalWellness';
 import NaturalRemedies from './pages/NaturalRemedies';
 import HealthSupplements from './pages/HealthSupplements';
-import Product from './components/Product';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
 import ContactUs from './components/ContactUs';
@@ -39,10 +38,9 @@ function App() {
                 <SocialMedia />
                 <Hero />
                 <OurServices />
-                <Product />
-                <Testimonials />
-                <Blog />
                 <FeaturedProducts />
+                <Blog />
+                <Testimonials />
                 <OfferPricing />
                 <ContactUs />
                 <Footer />
