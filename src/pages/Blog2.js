@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLeaf, faRunning, faAppleAlt, faSpa, faUtensils } from '@fortawesome/free-solid-svg-icons';
+import { faLeaf, faDumbbell, faSeedling, faHeart, faBalanceScale } from '@fortawesome/free-solid-svg-icons';
 import './Blog2.css'; // Custom CSS file for Blog2
 import Footer from '../components/Footer'; // Import Footer component
 import SocialMedia from '../components/SocialMedia'; // Import SocialMedia component
@@ -13,71 +13,60 @@ const Blog2 = () => {
       <div className="blog2-container">
         <Container className="blog-post-container my-5">
           <div className="text-center mb-5">
-            <h1 className="text-center blog-title">Top 5 Habits for a Healthier Lifestyle</h1>
+            <h1 className="text-center blog-title">The Power of Plant-Based Organic Protein: Fuel Your Body, Fuel the Planet</h1>
           </div>
           <div className="blog-card">
             <div className="icon-container">
               <FontAwesomeIcon icon={faLeaf} className="fa-icon animated-icon" />
             </div>
             <p>
-              Adopting healthy habits can significantly improve your overall well-being. Here are five essential habits to incorporate into your daily routine for a healthier lifestyle.
+              In today's world, health and sustainability are more important than ever. Our **Plant-Based Organic Protein Powder** is here to help you achieve your fitness goals while staying true to your values. Whether you're an athlete, a vegan, or simply someone who cares about clean eating, this protein powder is designed to support your lifestyle.
             </p>
-            <Button variant="primary" className="cta-button" href="#">Discover More</Button> {/* CPA Link Placeholder */}
+            <Button variant="primary" className="cta-button" href="#">Learn More</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faRunning} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faDumbbell} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">1. Regular Exercise</h3>
+            <h3 className="blog-subtitle">1. Boost Your Workout with Clean Protein</h3>
             <p>
-              Engaging in regular physical activity is crucial for maintaining a healthy body and mind. Whether it's jogging, cycling, yoga, or strength training, exercise helps improve cardiovascular health, strengthen muscles, and boost mood. Aim for at least 30 minutes of exercise most days of the week.
+              Fuel your workouts with pure, plant-based protein that provides essential amino acids without any artificial additives. Whether you're hitting the gym or doing yoga at home, this protein powder helps you recover faster and build lean muscle, all while staying true to a clean and organic diet.
             </p>
-            <Button variant="success" className="cta-button" href="#">Get Workout Gear</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Shop Now</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faSeedling} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">2. Balanced Nutrition</h3>
+            <h3 className="blog-subtitle">2. Sustainable and Eco-Friendly</h3>
             <p>
-              Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins is essential for optimal health. Avoid processed foods and sugars, and focus on nutrient-dense options. Proper nutrition fuels the body, supports immune function, and helps maintain a healthy weight.
+              Our protein powder isn't just good for you—it's good for the planet. Made from sustainably sourced, organic ingredients, it offers a clean source of nutrition that aligns with environmentally conscious values. By choosing plant-based protein, you're helping reduce the environmental impact associated with animal agriculture.
             </p>
-            <Button variant="success" className="cta-button" href="#">Find Healthy Recipes</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Discover More</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faSpa} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faHeart} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">3. Stress Management</h3>
+            <h3 className="blog-subtitle">3. Perfect for All Lifestyles</h3>
             <p>
-              Managing stress is vital for maintaining mental and physical health. Techniques such as meditation, deep breathing, and mindfulness can help reduce stress levels. Taking breaks, engaging in hobbies, and spending time with loved ones are also effective ways to relax and recharge.
+              Whether you're vegan, vegetarian, or just looking to incorporate more plant-based options into your diet, this protein powder fits seamlessly into any lifestyle. It's dairy-free, gluten-free, and free from any artificial ingredients, making it an excellent choice for those with dietary restrictions or food sensitivities.
             </p>
-            <Button variant="success" className="cta-button" href="#">Explore Relaxation Techniques</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Find Out More</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faUtensils} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faBalanceScale} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">4. Adequate Hydration</h3>
+            <h3 className="blog-subtitle">4. Balanced Nutrition for Your Body</h3>
             <p>
-              Staying hydrated is crucial for overall health. Water plays a key role in bodily functions such as digestion, temperature regulation, and nutrient transport. Aim to drink at least eight 8-ounce glasses of water daily. Keep a water bottle with you to make staying hydrated easier.
+              Packed with essential nutrients, our plant-based protein powder offers more than just protein. It provides a balanced source of nutrition that includes vitamins, minerals, and antioxidants, all of which are crucial for maintaining a healthy body. Whether you're using it post-workout or as a meal replacement, it's a versatile addition to your daily routine.
             </p>
-            <Button variant="success" className="cta-button" href="#">Shop Water Bottles</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faLeaf} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">5. Quality Sleep</h3>
-            <p>
-              Quality sleep is essential for overall well-being. It helps with cognitive function, mood regulation, and physical health. Create a calming bedtime routine, limit screen time before bed, and aim for 7-9 hours of sleep each night. A comfortable sleep environment also contributes to better rest.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Find Sleep Solutions</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Order Now</Button> {/* CPA Link Placeholder */}
           </div>
         </Container>
       </div>

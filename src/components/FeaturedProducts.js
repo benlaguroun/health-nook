@@ -7,9 +7,9 @@ const products = [
   {
     id: 1,
     image: require('../images/product1.jpg'),
-    title: 'Organic Protein Powder',
-    description: 'High-quality organic protein powder perfect for post-workout recovery and muscle building.',
-    link: 'https://www.amazon.com/dp/B08L7S8WZQ',
+    title: 'Super Greens Powder Premium Antioxidant Superfood',
+    description: 'Organic Greens Fruit and Veggie Vegan Supplement | 40+ Greens and Superfoods Including Wheatgrass & Spirulina | Probiotic Powder Greens, Sweet Berry',
+    link: 'https://amzn.to/4cji1Sc',
   },
   {
     id: 2,

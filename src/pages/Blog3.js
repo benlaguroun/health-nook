@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAppleAlt, faDumbbell, faBed, faSpa, faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faDumbbell, faSuitcaseRolling, faHome, faRunning } from '@fortawesome/free-solid-svg-icons';
 import './Blog3.css'; // Custom CSS file for Blog3
 import Footer from '../components/Footer'; // Import Footer component
 import SocialMedia from '../components/SocialMedia'; // Import SocialMedia component
@@ -13,93 +13,60 @@ const Blog3 = () => {
       <div className="blog3-container">
         <Container className="blog-post-container my-5">
           <div className="text-center mb-5">
-            <h1 className="text-center blog-title">7 Essential Tips for a Healthier Lifestyle</h1>
+            <h1 className="text-center blog-title">Maximize Your Home Workouts: The Power of Resistance Bands</h1>
           </div>
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faDumbbell} className="fa-icon animated-icon" />
             </div>
             <p>
-              Maintaining a healthy lifestyle involves various aspects, from nutrition to exercise. Explore these seven essential tips and discover how they can benefit your well-being.
+              In today's fast-paced world, finding time to hit the gym can be challenging. That's why more people are turning to home workouts. But how do you make the most of your workout without all the bulky, expensive gym equipment? The answer lies in resistance bands – a simple, effective tool that can transform your fitness routine.
             </p>
-            <Button variant="primary" className="cta-button" href="#">Learn More</Button> {/* CPA Link Placeholder */}
+            <Button variant="primary" className="cta-button" href="#">Discover More</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
+              <FontAwesomeIcon icon={faHome} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">1. Eat a Balanced Diet</h3>
+            <h3 className="blog-subtitle">1. Versatility at Its Best</h3>
             <p>
-              A balanced diet includes a variety of foods, providing essential nutrients for the body. Focus on incorporating fruits, vegetables, lean proteins, and whole grains. Avoid processed foods, sugars, and excessive fats. Balanced nutrition supports energy levels, immune function, and overall health.
+              Resistance bands are incredibly versatile, making them suitable for any fitness level. Whether you're a beginner or a seasoned athlete, these bands can help you target various muscle groups, improve flexibility, and enhance strength. From squats to bicep curls, the possibilities are endless.
             </p>
-            <Button variant="success" className="cta-button" href="#">Find Healthy Recipes</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Get Your Set</Button> {/* CPA Link Placeholder */}
+          </div>
+
+          <div className="blog-card">
+            <div className="icon-container">
+              <FontAwesomeIcon icon={faSuitcaseRolling} className="fa-icon animated-icon" />
+            </div>
+            <h3 className="blog-subtitle">2. The Perfect Travel Companion</h3>
+            <p>
+              One of the best things about resistance bands is their portability. Unlike heavy weights, these bands are light and easy to carry, making them the perfect travel companion. Whether you're on a business trip or a vacation, you can stay fit and maintain your routine with ease.
+            </p>
+            <Button variant="success" className="cta-button" href="#">Order Now</Button> {/* CPA Link Placeholder */}
+          </div>
+
+          <div className="blog-card">
+            <div className="icon-container">
+              <FontAwesomeIcon icon={faRunning} className="fa-icon animated-icon" />
+            </div>
+            <h3 className="blog-subtitle">3. Affordable & Effective</h3>
+            <p>
+              Gym memberships and home gym equipment can be expensive. Resistance bands offer a cost-effective alternative without compromising on effectiveness. These bands can deliver a full-body workout at a fraction of the cost, making fitness accessible to everyone.
+            </p>
+            <Button variant="success" className="cta-button" href="#">Shop Now</Button> {/* CPA Link Placeholder */}
           </div>
 
           <div className="blog-card">
             <div className="icon-container">
               <FontAwesomeIcon icon={faDumbbell} className="fa-icon animated-icon" />
             </div>
-            <h3 className="blog-subtitle">2. Stay Active</h3>
+            <h3 className="blog-subtitle">4. Ideal for Home Workouts</h3>
             <p>
-              Regular physical activity strengthens the heart, muscles, and bones. Activities like walking, running, cycling, or strength training can help you stay fit. Aim for at least 30 minutes of moderate exercise most days of the week. Physical activity also improves mental health and reduces the risk of chronic diseases.
+              With more people working out at home, having versatile and effective equipment is essential. Resistance bands allow you to perform a wide range of exercises without taking up much space. They are easy to store and can be used in any room, making them perfect for home workouts.
             </p>
-            <Button variant="success" className="cta-button" href="#">Get Fitness Gear</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faBed} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">3. Get Enough Sleep</h3>
-            <p>
-              Quality sleep is vital for physical and mental well-being. It helps the body recover, improves mood, and boosts cognitive function. Establish a regular sleep schedule, create a calming bedtime routine, and ensure your sleep environment is comfortable. Aim for 7-9 hours of sleep per night.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Shop Sleep Aids</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faSpa} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">4. Manage Stress</h3>
-            <p>
-              Chronic stress can have detrimental effects on health. Techniques like mindfulness, meditation, and yoga can help manage stress levels. Taking time to relax, practicing deep breathing exercises, and engaging in hobbies can reduce stress and enhance mental clarity.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Explore Relaxation Techniques</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faLeaf} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">5. Stay Hydrated</h3>
-            <p>
-              Water is essential for various bodily functions, including digestion, circulation, and temperature regulation. Drinking adequate water daily can improve skin health, aid digestion, and prevent dehydration. Carry a water bottle and aim to drink at least eight 8-ounce glasses of water daily.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Shop Water Bottles</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">6. Avoid Unhealthy Habits</h3>
-            <p>
-              Limiting alcohol consumption and avoiding smoking are crucial for maintaining health. Alcohol can affect liver function, and smoking increases the risk of respiratory diseases. Opt for healthier alternatives and seek support if needed to break these habits.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Get Support</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">7. Regular Check-ups</h3>
-            <p>
-              Regular medical check-ups are vital for early detection and prevention of illnesses. Schedule annual physicals, dental check-ups, and screenings as recommended by healthcare providers. Early detection can lead to more effective treatment and a healthier life.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Find a Doctor</Button> {/* CPA Link Placeholder */}
+            <Button variant="success" className="cta-button" href="#">Buy Your Set</Button> {/* CPA Link Placeholder */}
           </div>
         </Container>
       </div>

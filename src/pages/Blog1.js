@@ -1,83 +1,70 @@
 import React from 'react';
-import { Container, Button } from 'react-bootstrap';
+import { Container, Button, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAppleAlt, faCarrot, faFish, faBreadSlice, faLemon } from '@fortawesome/free-solid-svg-icons';
-import './Blog1.css'; // Custom CSS file for Blog1
+import { faLeaf, faAppleAlt, faShieldAlt, faSmile } from '@fortawesome/free-solid-svg-icons';
+import './Blog1.css'; // Custom CSS file for Blog
 import Footer from '../components/Footer'; // Import Footer component
 import SocialMedia from '../components/SocialMedia'; // Import SocialMedia component
 
-const Blog1 = () => {
+const Blog = () => {
   return (
     <>
       <SocialMedia /> {/* Include the SocialMedia component */}
-      <div className="blog1-container">
+      <div className="blog-container">
         <Container className="blog-post-container my-5">
           <div className="text-center mb-5">
-            <h1 className="text-center blog-title">The Benefits of Maintaining a Healthy Diet</h1>
+            <h1 className="blog-title">The Power of Super Greens: Elevate Your Health Naturally</h1>
+            <p className="blog-subtitle">Discover the benefits of adding Super Greens Powder to your daily routine</p>
           </div>
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
-            </div>
-            <p>
-              A healthy diet is vital for maintaining good health and well-being. By consuming a balanced diet, you provide your body with essential nutrients, improve energy levels, and reduce the risk of chronic diseases. Let's explore some of the key benefits of maintaining a healthy diet.
-            </p>
-            <Button variant="primary" className="cta-button" href="#">Learn More</Button> {/* CPA Link Placeholder */}
-          </div>
+          
+          <div className="blog-content">
+            <Row className="mb-5">
+              <Col md={6} className="mb-4">
+                <FontAwesomeIcon icon={faLeaf} className="fa-icon animated-icon" />
+                <h3>Why Super Greens?</h3>
+                <p>
+                  In a world where convenience often trumps nutrition, getting your daily dose of essential nutrients can be challenging. That's where Super Greens Powder comes in. This powerhouse supplement is packed with over 40 greens and superfoods, including wheatgrass, spirulina, and kale, providing you with a convenient way to boost your intake of vital vitamins and minerals.
+                </p>
+                <Button variant="success" href="#">Shop Super Greens Now</Button>
+              </Col>
+              <Col md={6} className="mb-4">
+                <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
+                <h3>Benefits for Your Body</h3>
+                <p>
+                  Super Greens Powder is more than just a supplement; it’s a game-changer for your overall health. From boosting your immune system to improving digestion and detoxifying your body, this nutrient-dense powder offers a host of benefits that support your well-being.
+                </p>
+                <Button variant="success" href="#">Learn More About the Benefits</Button>
+              </Col>
+            </Row>
 
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faCarrot} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">1. Boosts Immune System</h3>
-            <p>
-              A diet rich in fruits, vegetables, and whole grains provides essential vitamins, minerals, and antioxidants that boost your immune system. These nutrients help your body fight off infections and illnesses, keeping you healthy and strong.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Find Immune Boosters</Button> {/* CPA Link Placeholder */}
-          </div>
+            <Row className="mb-5">
+              <Col md={6} className="mb-4">
+                <FontAwesomeIcon icon={faShieldAlt} className="fa-icon animated-icon" />
+                <h3>Immune System Support</h3>
+                <p>
+                  A strong immune system is your body’s best defense against illness. The antioxidants and phytonutrients found in Super Greens Powder help fight off harmful free radicals and support your immune system, keeping you healthy and resilient.
+                </p>
+                <Button variant="success" href="#">Boost Your Immunity</Button>
+              </Col>
+              <Col md={6} className="mb-4">
+                <FontAwesomeIcon icon={faSmile} className="fa-icon animated-icon" />
+                <h3>Improved Digestion & Gut Health</h3>
+                <p>
+                  A healthy gut is key to overall well-being. With added probiotics, Super Greens Powder aids digestion, reduces bloating, and helps maintain a balanced gut flora. Say goodbye to digestive discomfort and hello to a happier, healthier you.
+                </p>
+                <Button variant="success" href="#">Support Your Gut Health</Button>
+              </Col>
+            </Row>
 
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faFish} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">2. Supports Weight Management</h3>
-            <p>
-              Eating a balanced diet helps you maintain a healthy weight. By choosing nutrient-dense foods over processed, high-calorie options, you can manage your calorie intake more effectively. Incorporating lean proteins, healthy fats, and fiber-rich foods keeps you full and satisfied, reducing the likelihood of overeating.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Get Diet Plans</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faBreadSlice} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">3. Improves Mental Health</h3>
-            <p>
-              A healthy diet can have a positive impact on mental health. Foods rich in omega-3 fatty acids, such as fish and nuts, support brain health. Additionally, complex carbohydrates like whole grains can help regulate blood sugar levels, improving mood and energy stability.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Shop Omega-3 Supplements</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faLemon} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">4. Reduces Risk of Chronic Diseases</h3>
-            <p>
-              Consuming a diet high in fruits, vegetables, whole grains, and lean proteins can reduce the risk of chronic diseases such as heart disease, diabetes, and certain cancers. These foods provide essential nutrients that support overall health and prevent inflammation and oxidative stress.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Explore Healthy Foods</Button> {/* CPA Link Placeholder */}
-          </div>
-
-          <div className="blog-card">
-            <div className="icon-container">
-              <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
-            </div>
-            <h3 className="blog-subtitle">5. Enhances Energy Levels</h3>
-            <p>
-              A well-balanced diet provides the necessary nutrients and energy to fuel your daily activities. By choosing a variety of nutrient-rich foods, you can maintain stable energy levels throughout the day, improving productivity and overall well-being.
-            </p>
-            <Button variant="success" className="cta-button" href="#">Get Energy Boosters</Button> {/* CPA Link Placeholder */}
+            <Row className="mb-5">
+              <Col md={12}>
+                <h2>How to Use Super Greens Powder</h2>
+                <p>
+                  Incorporating Super Greens Powder into your daily routine is easy. Simply add a scoop to your morning smoothie, juice, or even a glass of water. It’s a simple way to start your day with a burst of nutrients, ensuring you’re fueling your body with the best nature has to offer.
+                </p>
+                <Button variant="primary" href="#">Get Your Super Greens Today</Button>
+              </Col>
+            </Row>
           </div>
         </Container>
       </div>
@@ -86,4 +73,4 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
+export default Blog;
