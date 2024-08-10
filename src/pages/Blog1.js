@@ -44,7 +44,7 @@ const Blog = () => {
                 <p>
                   A strong immune system is your body’s best defense against illness. The antioxidants and phytonutrients found in Super Greens Powder help fight off harmful free radicals and support your immune system, keeping you healthy and resilient.
                 </p>
-                <Button variant="success" href="#">Boost Your Immunity</Button>
+                <Button variant="success" href="https://benlaguroun.github.io/SuperGreens/">Boost Your Immunity</Button>
               </Col>
               <Col md={6} className="mb-4">
                 <FontAwesomeIcon icon={faSmile} className="fa-icon animated-icon" />
@@ -52,7 +52,7 @@ const Blog = () => {
                 <p>
                   A healthy gut is key to overall well-being. With added probiotics, Super Greens Powder aids digestion, reduces bloating, and helps maintain a balanced gut flora. Say goodbye to digestive discomfort and hello to a happier, healthier you.
                 </p>
-                <Button variant="success" href="#">Support Your Gut Health</Button>
+                <Button variant="success" href="https://benlaguroun.github.io/SuperGreens/">Support Your Gut Health</Button>
               </Col>
             </Row>
 
