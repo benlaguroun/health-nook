@@ -1,0 +1,50 @@
+.blog6-container {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+  }
+  
+  .blog-post-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-title {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .blog-card {
+    margin-bottom: 40px;
+  }
+  
+  .icon-container {
+    margin-bottom: 15px;
+  }
+  
+  .fa-icon {
+    font-size: 2rem;
+    color: #28a745;
+    margin-right: 10px;
+  }
+  
+  .blog-subtitle {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .cta-button {
+    margin-top: 15px;
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+  }
+  

@@ -4,6 +4,7 @@ import Header from './components/Header';
 import SocialMedia from './components/SocialMedia';
 import Hero from './components/Hero';
 import Blog from './components/Blog';
+import BlogList from './components/BlogList'; // New import
 import OurServices from './components/OurServices';
 import NutritionDiet from './pages/NutritionDiet';
 import FitnessWorkouts from './pages/FitnessWorkouts';
@@ -18,6 +19,13 @@ import OfferPricing from './components/OfferPricing';
 import Blog1 from './pages/Blog1';
 import Blog2 from './pages/Blog2';
 import Blog3 from './pages/Blog3';
+import Blog4 from './pages/Blog4';
+import Blog5 from './pages/Blog5';
+import Blog6 from './pages/Blog6';
+import Blog7 from './pages/Blog7';
+import Blog8 from './pages/Blog8';
+import Blog9 from './pages/Blog9';
+import Blog10 from './pages/Blog10';
 import AdminPanel from './components/AdminPanel';
 import Login from './components/Login';
 import ProductPage from './pages/ProductPage';
@@ -48,9 +56,17 @@ function App() {
             }
           />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog-list" element={<BlogList />} /> {/* New Route */}
           <Route path="/blog/1" element={<Blog1 />} />
           <Route path="/blog/2" element={<Blog2 />} />
           <Route path="/blog/3" element={<Blog3 />} />
+          <Route path="/blog/4" element={<Blog4 />} />
+          <Route path="/blog/5" element={<Blog5 />} />
+          <Route path="/blog/6" element={<Blog6 />} />
+          <Route path="/blog/7" element={<Blog7 />} />
+          <Route path="/blog/8" element={<Blog8 />} />
+          <Route path="/blog/9" element={<Blog9 />} />
+          <Route path="/blog/10" element={<Blog10 />} />
           <Route path="/admin" element={<AdminPanel />} />
           <Route path="/login" element={<Login />} />
           <Route path="/nutrition-diet" element={<NutritionDiet />} />
