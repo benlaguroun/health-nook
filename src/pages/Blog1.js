@@ -25,7 +25,7 @@ const Blog = () => {
                 <p>
                   In a world where convenience often trumps nutrition, getting your daily dose of essential nutrients can be challenging. That's where Super Greens Powder comes in. This powerhouse supplement is packed with over 40 greens and superfoods, including wheatgrass, spirulina, and kale, providing you with a convenient way to boost your intake of vital vitamins and minerals.
                 </p>
-                <Button variant="success" href="#">Shop Super Greens Now</Button>
+                <Button variant="success" href="https://amzn.to/4dhYsLi">Shop Super Greens Now</Button>
               </Col>
               <Col md={6} className="mb-4">
                 <FontAwesomeIcon icon={faAppleAlt} className="fa-icon animated-icon" />
@@ -33,7 +33,7 @@ const Blog = () => {
                 <p>
                   Super Greens Powder is more than just a supplement; it’s a game-changer for your overall health. From boosting your immune system to improving digestion and detoxifying your body, this nutrient-dense powder offers a host of benefits that support your well-being.
                 </p>
-                <Button variant="success" href="#">Learn More About the Benefits</Button>
+                <Button variant="success" href="https://benlaguroun.github.io/SuperGreens/">Get FREE Guide</Button>
               </Col>
             </Row>
 
@@ -62,7 +62,7 @@ const Blog = () => {
                 <p>
                   Incorporating Super Greens Powder into your daily routine is easy. Simply add a scoop to your morning smoothie, juice, or even a glass of water. It’s a simple way to start your day with a burst of nutrients, ensuring you’re fueling your body with the best nature has to offer.
                 </p>
-                <Button variant="primary" href="#">Get Your Super Greens Today</Button>
+                <Button variant="primary" href="https://amzn.to/4dhYsLi">Get Your Super Greens Today</Button>
               </Col>
             </Row>
           </div>
